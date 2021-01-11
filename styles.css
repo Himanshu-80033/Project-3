@@ -1,0 +1,318 @@
+
+
+/* Section Event Schedules */
+
+.schedules{
+    background: #f3f4f3;
+    font-family: sans-serif;
+    padding: 0 7%;
+}
+.schedules h1{
+    text-align: center;
+}
+
+.schedules-para{
+    text-align: center;
+}
+
+.schedule-row{
+    display: flex;
+}
+
+.schedule-col-1{
+    width: 18rem;
+}
+
+.schedule-col-2{
+    width: 100%;
+    padding-left: 25px;
+    margin-left: 25px;
+
+}
+.schedule-col-2 .card{
+    height: 120px;
+}
+.schedule-col-2 .row{
+    margin: 0;
+    height: 100%;
+}
+.schedule-event p{
+    text-align: left;
+}
+
+.schedule-event-discription{
+    background-color: #f3f4f3;
+}
+
+
+.event-location{
+    color: #e91e63;
+}
+
+/* .col-2 img{
+    width: 110px;
+    margin-top: 22px;
+    margin-left: -6px;
+    border-radius: 100%;
+} */
+
+.card-day{ 
+    /* border: none; */
+    /* min-width: 18rem; */
+    color: #495057;
+    border-radius: 0;
+}
+.card-day p{
+    float: left;
+}
+.card-day-monday{
+    background-color: #e91e63;
+    color: #ffffff;
+}
+
+.card-day:hover{
+    transition: 0.5s;
+    background-color: #e91e63;
+    color: #ffffff;
+}  
+
+
+@media screen and (max-width:993px){
+    .schedule-col-2 h5{
+        font-size: 14px;
+    }
+    .schedule-col-2 p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .schedule-row{
+        display: block;
+    }
+
+    .schedule-col-1{
+        display: flex;
+        width: 100%;
+    }
+    .schedule-col-2{
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .card-day{
+        width: 25%;
+    }
+    .schedule-col-1 h5{
+        font-size: 15px;
+    }
+    .schedule-col-1 p{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .schedule-col-1{
+        display: block;
+    }
+    .card-day{
+        width: 100%;
+    }
+}
+
+/* Section Our Event Gallary */
+
+.event-gallary{
+    margin-top: 20px;
+    padding: 0 4%;
+}
+.event-gallary .row{
+    margin: 0;
+}
+.event-gallary .row2{
+    margin-top: 30px;
+}
+
+.col-lg-4{
+    padding: 0;
+}
+ .event-gallary .col-lg-4 img{
+    width: 100%;
+    height: 210px;
+}
+
+.event-gallary-hover:hover .inner{
+    transition: 0.5s;
+    background: #e91e63;
+    position: absolute;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.event-gallary-btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.event-gallary-btn .btn{
+    background-color: #e91e63;
+    color: #ffffff;
+} 
+
+
+/* Section Ask Question */
+
+.ask-question{
+    padding: 0 5%;
+}
+.ask-question .row{
+    margin: 0;
+}
+.ask-question-heading, .ask-question-para{
+    text-align: center;
+}
+.pencil-icon , .question{
+    border: 1.5px solid #e91e63;
+} 
+
+
+
+/* Section Our latest news and Articals  */
+
+.news-articals{
+    padding: 0 5%;
+}
+
+.news-articals .card{
+    box-shadow: 6px 6px 30px #dddddd;
+}
+.image1{
+   /* transition: 1s; */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5euMeMcTlTRfgBanG--riR6WHkwd6SW9a_g&usqp=CAU");
+}
+.image2{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKgG0Mw8U-71JJ3VFpw-WoTw7Xs6P1bJ97A&usqp=CAU");
+}
+.image3{
+    background: url("https://image.shutterstock.com/image-photo/bottle-mineral-water-on-wooden-260nw-522481555.jpg");
+}
+
+.image1,.image2,.image3{
+    height: 200px;
+    transition: 0.5s ;
+    background-size: 100%  !important;
+}
+
+.image1:hover{
+    background-size: 110% !important;
+}
+.image2:hover{
+    background-size: 110% !important;
+}
+.image3:hover{
+    background-size: 110% !important;
+}
+
+.news-articals .card-title{
+    font-size: 24px;
+}
+.news-articals .card-title:hover{
+    transition: 0.3s;
+    color: #e91e63;
+}
+.news-articals .card-text{
+    color: #999999;
+}
+.news-articals .card-text span:hover{
+    transition: 0.3s;
+    color: #e91e63;
+}
+
+.tag{
+    position: absolute;
+    top: 185px;
+    left: 35px;
+    color: red;
+    background: #ffffff;
+    padding: 6px 20px;
+    box-shadow: 3px 1px 8px #bbbbbb;
+}
+
+.news-articals .button{
+    margin-top: 36px;
+    text-align: center;
+}
+.news-articals .button .btn{
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #e91e63;
+
+}
+
+/* Section Event Guildline */
+
+.guidline{
+    padding: 0 5%;
+}
+.guidline-heading,.guidline-para{
+    text-align: center;
+}
+.guidline ul{
+    padding-inline-start: 0;
+}
+.guidline li{
+    list-style: none;
+}
+
+/* Section Pricing */
+
+
+
+.pricing-img{
+ position: fixed;     /* problem ::: Image is not visible */
+width: 100%;        
+z-index: -1;
+}
+
+.pricing-heading , .pricing-para , .pricing .card{
+    text-align: center;
+}
+.pricing-heading , .pricing-para{
+    color: #ffffff;
+}
+
+.pricing .card-deck{
+    padding: 0 5%;
+    margin: 0;
+}
+
+.pricing li{
+    list-style: none;
+}
+
+.pricing i{
+    color: #e91e63;
+}
+
+.icon-top{
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.price{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.pricing .card div{
+    margin-bottom: 30px;
+}
+
+.pricing .btn{
+    background-color: #e91e63;
+    color: #ffffff;
+}
