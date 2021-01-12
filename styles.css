@@ -819,3 +819,22 @@ margin-bottom: 20px;
 .fixed-button:hover{
     color: #ffffff;
 }
+
+.copyright{	
+    padding: 8px 0;	
+    color: #ffffff;  	
+    text-align: center;	
+    background: #000000;	
+}	
+.copyright p{	
+    margin-bottom: 0;	
+
+}	
+.copyright a{	
+    transition: 0.5s;	
+    color: #ffffff;	
+    text-decoration: none;	
+}	
+.copyright a:hover{	
+   color: #e91e63;	
+}
