@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* Section Event Schedules */
 
@@ -371,6 +373,7 @@ margin-bottom: 20px;
     margin: 15px 0;
 }
 .footer-icon i{
+    transition: 0.4s;
     font-size: 2.5rem;
     margin-right: 5px;
 }
@@ -381,6 +384,7 @@ margin-bottom: 20px;
 .footer a:hover{
     color: #e91e63 !important;
 }
+
 
 .fb:hover{
     color: #3b5998;
@@ -393,4 +397,17 @@ margin-bottom: 20px;
 }
 .insta:hover{
     color: #5851DB;
+}
+
+/* Section fixed button */
+
+.fixed-button{
+    background: #e91e63;
+    color: #ffffff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.fixed-button:hover{
+    color: #ffffff;
 }
