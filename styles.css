@@ -745,6 +745,11 @@ z-index: -1;
 .footer .row{
     margin: 0;
 }
+
+.footer-col{
+    margin-bottom: 40px;
+}
+
 .footer ul{
     padding-inline-start: 0;
 }
@@ -760,6 +765,9 @@ z-index: -1;
 }
 .footer p{
     font-size: 0.9rem;
+}
+.footer h4{
+    font-size: 20px;
 }
 .recent-post{
 display: flex;
@@ -783,8 +791,11 @@ margin-bottom: 20px;
     background-color: #e91e63;
     color: #ffffff;
 }
+.footer-form{
+    display: flex;
+}
 .follow-us{
-    margin: 15px 0;
+    margin-top: 25px;
 }
 .footer-icon i{
     transition: 0.4s;
