@@ -716,6 +716,11 @@ z-index: -1;
     float: right;
 }
 
+.form-para{
+    color: #e91e63;
+    display: none;
+}
+
 .submit-btn{
     background-color: #e91e63;
     width:100%;

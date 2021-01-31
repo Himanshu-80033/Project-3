@@ -920,23 +920,28 @@
         <h5 >Global Grand Event on Digital Design</h5>
     </div>
    
-    <form class="form-design">
+    <form  onsubmit="submitForm() ; return false" class="form-design">
+
         <div class="form-group input_box-width">
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Enter Name">
+          <p class="form-para" id="form-name">Please entre your name</p>
         </div>
 
         <div class="form-group input_box-width input-float">
-          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <input type="email" class="form-control" id="inputEmail" placeholder="Entre Email">
+          <p class="form-para" id="form-email">Please entre your Email</p>
         </div>
 
         <div class="form-group">
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="text" class="form-control" id="inputSubject" placeholder="subject">
+            <p class="form-para" id="form-subject">Please entre your message subject</p>
           </div>
 
         <div class="form-group">
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn submit-btn btn-lg">Submit</button>
+        
+        <button type="submit" class="btn submit-btn btn-lg">SEND US NOW</button>
       </form>
 
    </div>
@@ -1002,6 +1007,7 @@
 <!-- Section Fixed Button -->
 <a class="btn fixed-button" href="#"><i class="fas fa-chevron-up"></i></a>
 <div class="copyright" ><p>© Designed by <a href="#">UIdeck</a> and developed by himanshu and Manish </p></div>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script src="./index.js"></script>
 </body>
 </html>
