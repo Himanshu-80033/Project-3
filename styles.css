@@ -365,12 +365,11 @@ html{
 .main-div>h4{
    text-align: center;
 }
-
 .main-div>p{
     text-align: center;
  }
 
- .candidate-box{
+.candidate-box{
      padding:20px;
  }
 
@@ -415,11 +414,6 @@ html{
     height:280px;
 }
 
-.employee-profile:hover .media-id-employee{
-    display: block;
-    margin-top:15px;
-    z-index: 2;
-}
 
 .overlay{
     position:absolute;
@@ -431,16 +425,23 @@ html{
     height:100%;
 }
 
-.employee-profile:hover .overlay{
-    display: block;
-}
-
 .speaker-box-button{
     display: block;
     margin: auto;
     background-color:#e91e63 ;
     margin-top:30px;
 }
+
+.employee-profile:hover .media-id-employee{
+    display: block;
+    margin-top:15px;
+    z-index: 2;
+}
+
+.employee-profile:hover .overlay{
+    display: block;
+}
+
 
 
 
