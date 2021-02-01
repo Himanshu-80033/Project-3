@@ -7,9 +7,19 @@ html{
     width:100%;
 }
 
+/* global class */
+.text-align-center{
+    text-align:center;
+}
+
+.padding-top-bottom{
+    padding-top:60px !important;
+    padding-bottom:60px !important;
+}
 
 
-/* navbar */
+
+/* navbar ------------------------------------------------------------------*/
 .navbar-back-color{
     position: fixed;
     background-color: rgb(245, 245, 245);
@@ -33,31 +43,49 @@ html{
 .active>a{
     color:#e91e63 !important;
 }
-.nav-link{
-    transition: 0.8s;
-    margin-left:8px;
-    width:0%;
-    border-top:0px solid #e91e63;
+
+
+
+.style-border{
+   position: absolute;
+    transition: 0.2s;
+    height:0px;
+    background-color: hotpink;
 }
 
-.nav-link:hover {
-   width:90%;
-   color:#e91e63 !important;
-   border-width: 2px;
+.width-1{
+    width:60px;
 }
 
-@media (max-width:995px){
-    .navbar-nav{
+.width-2{
+    width:70px;
+}
+.width-3{
+    width:41px;
+}
+.width-4{
+    width:90px;
+}
+
+.style-hover:hover .style-border{
+   height:5px;
+}
+
+@media (max-width:995px)
+{
+.navbar-nav{
     margin-left:0;
-    }
-    .nav-item{
-    margin-left:0px;
-    }
-    .nav-link:hover{
-   border-top:none;
-   width:90px;
-    }
 }
+
+.nav-item{
+    margin-left:0px;
+}
+
+.style-border{
+   display:none;
+}
+}
+
 
 
 /* carousel */
@@ -197,6 +225,10 @@ html{
     color:white;
     background-color:#e83e8c;
     border:1px solid gray;
+}
+
+.btn-darkpink:hover{
+    color:white;
 }
 
 .about-event{
@@ -373,43 +405,45 @@ html{
 
 /* part who is speaking */
 
+/* part who is speaking ------------------------------------------------------*/
+
 .main-div{
-    padding:70px 40px;
+    padding:0px 40px;
 }
-.main-div>h4{
-   text-align: center;
+
+/* .main-div>h4{
+text-align: center;
 }
+
 .main-div>p{
     text-align: center;
- }
+} */
 
 .candidate-box{
-     padding:20px;
- }
+    padding:20px;
+}
 
 .employee-profile{
     position: relative;
-    background-color: white;
     box-shadow: 0.5px 0.5px 10px rgb(187, 187, 187);
     border-radius: 5px;
     padding:10px;
     z-index:1;
     height:300px;
-    MARGIN:15px;
+   margin:15px;
 }
 
 .media-id-employee{
-     position:absolute;
-     z-index: 2;
-     top:8px;
-     right:5%;
-     transition: 0.3s;
-     z-index:-2;
+    position:absolute;
+    transition: 0.3s;
+    top:8px;
+    z-index:-2;
+    right:5%;
 }
 
 .media-id-employee>i{
-      color:#e91e63;
-      margin-left:8px;
+    color:#e91e63;
+    margin-left:8px;
 }
 
 
@@ -428,142 +462,169 @@ html{
     height:280px;
 }
 
-
-.overlay{
-    position:absolute;
-    background-color: black;
-    display: none;
-    opacity: 0.5;
-    top:0px;
-    width: 98%;
-    height:100%;
-}
-
-.speaker-box-button{
-    display: block;
-    margin: auto;
-    background-color:#e91e63 ;
-    margin-top:30px;
-}
-
 .employee-profile:hover .media-id-employee{
     display: block;
     margin-top:15px;
     z-index: 2;
 }
 
+.overlay{
+    position:absolute;
+    background-color: black;
+    display: none;
+    opacity: 0.5;
+    top:10px;
+    width: 100%;
+    height:100%;
+    overflow:auto;
+    margin:-10px!important;
+    border:10px solid white;
+}
+
 .employee-profile:hover .overlay{
     display: block;
 }
 
-
-
-
-/* Section Our Event Gallary */
-
-.event-gallary{
-    margin-top: 20px;
-    padding: 0 4%;
-}
-.event-gallary .row{
-    margin: 0;
-}
-.event-gallary .row2{
-    margin-top: 30px;
+.speaker-box-button{
+    background-color:#e91e63 ;
+    display: block;
+    margin: auto;
+    color:white;
+    margin-top:30px;
 }
 
-.col-lg-4{
-    padding: 0;
-}
- .event-gallary .col-lg-4 img{
-    width: 100%;
-    height: 210px;
-}
-
-.event-gallary-hover:hover .inner{
-    transition: 0.5s;
-    background: #e91e63;
-    position: absolute;
-    opacity: 0.6;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.event-gallary-btn{
-    margin-top: 40px;
-    text-align: center;
-}
-.event-gallary-btn .btn{
-    background-color: #e91e63;
-    color: #ffffff;
-} 
 
 
-/* Section Ask Question */
+
+/* Section Our Event Gallary -------------------------------------------------------------------------*/
+
+    .event-gallary{
+        background-color: rgb(240, 240, 240);
+        margin-top: 20px;
+        padding: 0 4%;
+    }
+
+    /* comment out by manish */
+    /* .event-gallary .row{
+        margin: 0;
+    }
+    .event-gallary .row2{
+        margin-top: 30px;
+    } */
+
+    .col-lg-4{
+        padding: 15px;
+    }
+
+    .event-gallary .col-lg-4 img{
+        object-fit: cover; /*new line by manish*/
+        width: 100%;
+        height: 270px;
+    }
+
+    .event-gallary-hover:hover .inner{
+        transition: 0.5s;
+        background: #e91e63;
+        position: absolute;
+        opacity: 0.6;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border:15px solid white;
+    }
+
+    .event-gallary-btn{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .event-gallary-btn .btn{
+        background-color: #e91e63;
+        color: #ffffff;
+    } 
+
+
+
+/* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
 
 .ask-question{
     padding: 0 5%;
 }
+
 .ask-question .row{
     margin: 0;
 }
+
 .ask-question-heading, .ask-question-para{
     text-align: center;
 }
-.pencil-icon , .question{
-    border: 1.5px solid #e91e63;
+
+.pencil-icon , .question:not(:first-child) {
+    border: 1px solid rgb(212, 212, 212);    /* change in color of border by Manish */
+    border-top: none;   /*this is new line by manish*/
 } 
 
+.pencil-icon{
+    border-right: none;   /*this is new line by manish*/
+}
+
+.top-border{
+    border-top: 1px solid rgb(212, 212, 212);
+}
 
 
-/* sponsors-box */
+
+/* sponsors-box -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .sponsors-box{
     background-color: rgb(240, 240, 240);
-    padding:100px 20px;
+    padding:0px 20px;
 }
 
 .sponsor-div{
-    width:90%;
     margin:auto; 
+    width:90%;
 }
 
-.sponsors-box>h2{
-    text-align: center;
+/* .sponsors-box>h2{
+text-align: center;
 }
 
 .sponsors-box>p{
-    text-align: center;
-}
+text-align: center;
+} */
 
 .sponsors-box-button{
     display: block;
-    background-color:#e91e63 ;
-    margin: auto;
-    margin-top:20px;
     color:white;
+    margin: auto;
+    background-color:#e91e63 ;
+    margin-top:20px;
 }
 
 .company-logo>img{
     display: block;
     margin:auto;
     text-align: center;
-   width:100%;
-   margin-top: 50px;
+    width:100%;
+    margin-top: 50px;
+    border: 1px solid rgb(206, 206, 206);
+    height:70%
 }
 
-@media (max-width:575px){
-    .company-logo>img{
-    width:300px;
-    height:120px;
-    margin-top:15px;
+@media (max-width:575px)
+{
+.company-logo>img{
+width:300px;
+height:120px;
+margin-top:15px;
 }
 }
 
 
-/* Section Our latest news and Articals  */
+/* Section Our latest news and Articals -------------------------------------------------------------------------------------------------- */
+
 
 .news-articals{
     padding: 0 5%;
@@ -572,13 +633,18 @@ html{
 .news-articals .card{
     box-shadow: 6px 6px 30px #dddddd;
 }
+
 .image1{
-   /* transition: 1s; */
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5euMeMcTlTRfgBanG--riR6WHkwd6SW9a_g&usqp=CAU");
+transition: 1s;
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5euMeMcTlTRfgBanG--riR6WHkwd6SW9a_g&usqp=CAU");
+background-size: 39% !important;
+background-position-x: center;
 }
+
 .image2{
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKgG0Mw8U-71JJ3VFpw-WoTw7Xs6P1bJ97A&usqp=CAU");
 }
+
 .image3{
     background: url("https://image.shutterstock.com/image-photo/bottle-mineral-water-on-wooden-260nw-522481555.jpg");
 }
@@ -586,11 +652,13 @@ html{
 .image1,.image2,.image3{
     height: 200px;
     transition: 0.5s ;
-    background-size: 100%  !important;
+    background-size: 100%;
+    background-repeat: no-repeat;  /*add property for remove repetation of imagess*/   
+    object-fit: cover; 
 }
 
 .image1:hover{
-    background-size: 110% !important;
+    background-size: 45% !important;
 }
 .image2:hover{
     background-size: 110% !important;
@@ -602,26 +670,29 @@ html{
 .news-articals .card-title{
     font-size: 24px;
 }
+
 .news-articals .card-title:hover{
-    transition: 0.3s;
     color: #e91e63;
+    transition: 0.3s;
 }
+
 .news-articals .card-text{
     color: #999999;
 }
+
 .news-articals .card-text span:hover{
     transition: 0.3s;
     color: #e91e63;
 }
 
 .tag{
+    color: red;
     position: absolute;
+    background: #ffffff;
+    box-shadow: 3px 1px 8px #bbbbbb;
     top: 185px;
     left: 35px;
-    color: red;
-    background: #ffffff;
     padding: 6px 20px;
-    box-shadow: 3px 1px 8px #bbbbbb;
 }
 
 .news-articals .button{
@@ -635,14 +706,17 @@ html{
 
 }
 
-/* Section Event Guildline */
+
+/* Section Event Guildline ------------------------------------------------------------------------------------------*/
 
 .guidline{
     padding: 0 5%;
 }
+
 .guidline-heading,.guidline-para{
     text-align: center;
 }
+
 .guidline ul{
     padding-inline-start: 0;
 }
@@ -650,21 +724,41 @@ html{
     list-style: none;
 }
 
-/* Section Pricing */
+.guideline-image>img{
+    width:100%;
+}
 
 
 
-.pricing-img{
- position: fixed;     /* problem ::: Image is not visible */
+/* Section Pricing----------------------------------------------------------------------------- */
+
+.pricing{
+    padding:70px 0px;
+    background-image: url("https://images.unsplash.com/photo-1515175192010-cf3250992719?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI1fHxsaXZlJTIwc2luZ2luZyUyMHBlcmZvcm1hbmNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-attachment: fixed;
+}
+
+.pricing-div{
+    text-align:center;
+}
+
+/* .pricing-img{
+position: relative;     problem ::: Image is not visible
 width: 100%;        
 z-index: -1;
-}
+height:100px;
+top:100px;
+position:fixed;
 
-.pricing-heading , .pricing-para , .pricing .card{
+} */
+
+.pricing-heading,.pricing-para{    /*card class element removed from here by Manish */
     text-align: center;
 }
+
+/* below,add new style for li for aligning vertical-straight */
 .pricing-heading , .pricing-para{
-    color: #ffffff;
+    color: white;
 }
 
 .pricing .card-deck{
