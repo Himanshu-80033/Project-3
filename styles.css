@@ -162,6 +162,11 @@ html{
     margin:50px 0px;
 }
 
+.event-start-time h5{
+    font-size: 35px;
+    font-weight: 700;
+}
+
 .event-start-time>button{
     display: block;
     margin:auto;
@@ -172,7 +177,7 @@ html{
     display: inline-block;
     text-align:center;
     background-color:white;
-    box-shadow: 1px 1px  15px rgb(226, 226, 226);
+    box-shadow: 4px 5px 24px 7px #aaaaaa;;
     padding:5px;
     height:70px;
     width:80px;
@@ -187,6 +192,7 @@ html{
          margin:10px;
     }
 }
+
 
 
 
