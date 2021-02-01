@@ -200,13 +200,17 @@ html{
 }
 
 .about-event{
-    padding:70px 0px;
+    padding: 65px 65px;
 }
 
 .event-discript-box{
     margin:auto;
     padding:20px;
     padding-bottom:50px;
+}
+
+.about-event .card-deck{
+    margin: 0;
 }
 
 .about-event>h4{
@@ -232,6 +236,16 @@ html{
     padding:30px;
 }
 
+@media screen and (max-width: 768px){
+ .about-event .col-lg-4{
+     text-align: -webkit-center;
+ }
+ .about-event .card{
+     width: 25rem;
+     margin-bottom: 25px;
+     text-align: left;
+ }
+}
 
 /* Section Event Schedules */
 
