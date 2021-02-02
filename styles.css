@@ -632,10 +632,15 @@ text-align: center;
 @media (max-width:575px)
 {
 .company-logo>img{
-width:300px;
+width:220px;
 height:120px;
 margin-top:15px;
 }
+
+.sponsors-box{
+    padding: 0;
+}
+
 }
 
 
