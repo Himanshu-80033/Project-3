@@ -509,7 +509,11 @@ text-align: center;
     margin-top:30px;
 }
 
-
+@media screen and (max-width: 380px){
+    .main-div{
+        padding: 0;
+    }
+}
 
 
 /* Section Our Event Gallary -------------------------------------------------------------------------*/
