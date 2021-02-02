@@ -286,6 +286,15 @@ html{
  }
 }
 
+@media screen and (max-width : 500px){
+    .about-event{
+        padding: 0%;
+    }
+    .about-event .card{
+        width: 100%;
+    }
+}
+
 /* Section Event Schedules */
 
 .schedules{
