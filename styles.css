@@ -335,8 +335,18 @@ html{
     text-align: left;
 }
 
-.schedule-event-discription{
+.schedule-event-discription1{
     background-color: #f3f4f3;
+    /* display: none; */
+}
+
+.schedule-event-discription2{
+    background-color: #f3f4f3;
+    display: none;
+}
+.schedule-event-discription3{
+    background-color: #f3f4f3;
+    display: none;
 }
 
 
