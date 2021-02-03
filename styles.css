@@ -42,18 +42,21 @@ html{
     margin:0% 7.5%;
 }
 
-.navbar-nav{
-    margin-left:10%;
+.nav-link{
+    margin-left:5px;
+}
+
+.right-align-nav{
+    position:absolute;
+    right:0% ;
 }
 
 .active>a{
     color:#e91e63 !important;
 }
 
-
-
 .style-border{
-   position: absolute;
+    position: absolute;
     transition: 0.2s;
     height:0px;
     background-color: hotpink;
@@ -61,34 +64,38 @@ html{
 
 .width-1{
     width:60px;
+    margin-left:6px;
 }
 
 .width-2{
     width:70px;
+    margin-left:7px;
 }
 .width-3{
     width:41px;
+    margin-left:9px;
 }
 .width-4{
     width:90px;
+    margin-left:10px;
 }
 
 .style-hover:hover .style-border{
    height:5px;
 }
 
-@media (max-width:995px)
+@media (max-width:991px)
 {
-.navbar-nav{
-    margin-left:0;
-}
-
-.nav-item{
-    margin-left:0px;
-}
-
 .style-border{
    display:none;
+}
+
+.nav-link{
+    margin-left:20px !important;
+}
+
+.right-align-nav{
+    position: relative;
 }
 }
 
