@@ -23,6 +23,8 @@ function submitForm(){
     }
 }
 
+// EVENT WILL START IN SECTION
+
 setInterval(showSecond,1000); 
 setInterval(showMinute,1000); 
 setInterval(showHour,1000); 
@@ -62,3 +64,24 @@ function showDay(){
     
   document.getElementById("clock-day").innerHTML = day; 
 }
+
+
+//  EVEN SCHEDULES
+
+$("#event1").click(function(){
+  $(".schedule-event-discription1").slideToggle();
+  $(".schedule-event-discription2").slideUp();
+  $(".schedule-event-discription3").slideUp();
+})
+
+$("#event2").click(function(){
+  $(".schedule-event-discription1").slideUp();
+  $(".schedule-event-discription2").slideToggle();
+  $(".schedule-event-discription3").slideUp();
+})
+
+$("#event3").click(function(){
+  $(".schedule-event-discription1").slideUp();
+  $(".schedule-event-discription2").slideUp();
+  $(".schedule-event-discription3").slideToggle();
+})
