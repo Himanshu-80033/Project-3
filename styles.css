@@ -17,6 +17,12 @@ html{
     padding-bottom:60px !important;
 }
 
+/* for font-family */
+
+.event-start-time h3,.why-you-choose h3,.about-event h4,.schedules h1,.main-div h4,.ask-question-heading,.sponsors-box h2,.news-articals h1,.guidline-heading,.pricing-heading,.form-box h3{
+    font-family: Josefin Sans, sans-serif;
+    font-size: 40px;
+}
 
 
 /* navbar ------------------------------------------------------------------*/
