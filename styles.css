@@ -24,6 +24,11 @@ html{
     font-size: 40px;
 }
 
+/* calling section by navbar */
+
+.href-about,.href-schedules,.href-gallary,.href-faq,.href-sponsors,.href-pricing,.href-contact{
+    height: 25px !important;
+}
 
 /* navbar ------------------------------------------------------------------*/
 .navbar-back-color{
