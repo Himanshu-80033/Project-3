@@ -243,9 +243,14 @@ html{
     padding-bottom:20px;
 }
 
+.small-box:hover{
+    background-color: #f3f4f3;
+}
 
 
 /* about-Event */
+
+
 .btn-darkpink{
     color:white;
     background-color:#e83e8c;
