@@ -247,6 +247,9 @@ html{
     background-color: #f3f4f3;
 }
 
+.small-box:hover .fa-heart,.small-box:hover .fa-newspaper,.small-box:hover .fa-envelope,.small-box:hover .fa-trophy,.small-box:hover .fa-user,.small-box:hover .fa-comment{
+    color:  rgb(233, 30, 99);
+}
 
 /* about-Event */
 
