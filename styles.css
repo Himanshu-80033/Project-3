@@ -8,21 +8,26 @@ html{
 }
 
 /* global class */
-.text-align-center{
-    text-align:center;
-}
 
 .padding-top-bottom{
     padding-top:60px !important;
     padding-bottom:60px !important;
 }
 
-/* for font-family */
+.c-align{
+    text-align: center;
+}
 
-.event-start-time h3,.why-you-choose h3,.about-event h4,.schedules h1,.main-div h4,.ask-question-heading,.sponsors-box h2,.news-articals h1,.guidline-heading,.our-event-gallary .bg-heading,.pricing-heading,.form-box h3{
+.p-abs{
+    position: absolute;
+}
+
+.bg-heading{
     font-family: Josefin Sans, sans-serif;
     font-size: 40px;
 }
+
+
 
 /* calling section by navbar */
 
@@ -52,7 +57,6 @@ html{
 }
 
 .right-align-nav{
-    position:absolute;
     right:0% ;
 }
 
@@ -61,7 +65,6 @@ html{
 }
 
 .style-border{
-    position: absolute;
     transition: 0.2s;
     height:0px;
     background-color: hotpink;
@@ -172,7 +175,6 @@ html{
 
 .event-start-time{
     display: block;
-    text-align: center;
     padding:50px 0px;
     margin:auto;
 }
@@ -193,7 +195,6 @@ html{
 
 .time-part-div{
     display: inline-block;
-    text-align:center;
     background-color:white;
     box-shadow: 4px 5px 24px 7px #aaaaaa;;
     padding:5px;
@@ -231,16 +232,12 @@ html{
 .why-you-choose{
     padding:70px 0px;
 }
-.why-you-choose>h3{
-    text-align:center;
-}
+
 .why-you-choose>p{
-    text-align:center;
     margin-bottom: 70px;
 }
 
 .small-box{
-    text-align:center;
     padding:40px 40px !important;
     border:0.1px solid rgb(219, 218, 218);
     margin-top:10px;
@@ -290,14 +287,6 @@ html{
     margin: 0;
 }
 
-.about-event>h4{
-    text-align:center;
-}
-
-.about-event>p{
-    text-align: center;
-}
-
 .time-box{
     background-color: #e91e63;
     padding:80px 0px;
@@ -309,7 +298,6 @@ html{
 
 .time-div{
     color:white;
-    text-align: center;
     padding:30px;
 }
 
@@ -340,12 +328,8 @@ html{
     font-family: sans-serif;
     padding: 0 7%;
 }
-.schedules h1{
-    text-align: center;
-}
 
 .schedules-para{
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -465,24 +449,11 @@ html{
     }
 }
 
-
-
-
-/* part who is speaking */
-
 /* part who is speaking ------------------------------------------------------*/
 
 .main-div{
     padding:0px 40px;
 }
-
-/* .main-div>h4{
-text-align: center;
-}
-
-.main-div>p{
-    text-align: center;
-} */
 
 .candidate-box{
     padding:20px;
@@ -499,7 +470,6 @@ text-align: center;
 }
 
 .media-id-employee{
-    position:absolute;
     transition: 0.3s;
     top:8px;
     z-index:-2;
@@ -514,7 +484,6 @@ text-align: center;
 
 
 .intro-div{
-    position:absolute;
     background-color:rgb(240, 239, 239);
     padding:20px 10px 0px 10px;
     bottom:10px;
@@ -534,7 +503,6 @@ text-align: center;
 }
 
 .overlay{
-    position:absolute;
     background-color: black;
     border:10px solid white;
     opacity: 0.1;
@@ -566,10 +534,6 @@ text-align: center;
 
 /* Section Our Event Gallary -------------------------------------------------------------------------*/
 
-     .our-event-gallary .bg-heading,.our-event-gallary .sm-heading{
-         text-align: center;
-     }
-
     .event-gallary{
         background-color: rgb(240, 240, 240);
         margin-top: 20px;
@@ -596,7 +560,6 @@ text-align: center;
 
 
     .overlay-div{
-        position:absolute;
         background-color: hotpink;
         border:15px solid rgb(240, 240, 240);
         opacity: 0.1;
@@ -625,7 +588,6 @@ text-align: center;
 
     .event-gallary-btn{
         margin-top: 40px;
-        text-align: center;
     }
 
     .event-gallary-btn .btn{
@@ -645,9 +607,6 @@ text-align: center;
     margin: 0;
 }
 
-.ask-question-heading, .ask-question-para{
-    text-align: center;
-}
 
 .pencil-icon , .question:not(:first-child) {
     border: 1px solid rgb(212, 212, 212);    /* change in color of border by Manish */
@@ -676,14 +635,6 @@ text-align: center;
     width:90%;
 }
 
-/* .sponsors-box>h2{
-text-align: center;
-}
-
-.sponsors-box>p{
-text-align: center;
-} */
-
 .sponsors-box-button{
     display: block;
     color:white;
@@ -695,7 +646,6 @@ text-align: center;
 .company-logo>img{
     display: block;
     margin:auto;
-    text-align: center;
     width:100%;
     margin-top: 50px;
     border: 1px solid rgb(206, 206, 206);
@@ -781,7 +731,6 @@ background-position-x: center;
 
 .tag{
     color: red;
-    position: absolute;
     background: #ffffff;
     box-shadow: 3px 1px 8px #bbbbbb;
     top: 185px;
@@ -791,7 +740,6 @@ background-position-x: center;
 
 .news-articals .button{
     margin-top: 36px;
-    text-align: center;
 }
 .news-articals .button .btn{
     font-size: 14px;
@@ -807,8 +755,8 @@ background-position-x: center;
     padding: 0 5%;
 }
 
-.guidline-heading,.guidline-para{
-    text-align: center;
+.guidline-para{
+    margin-bottom: 45px;
 }
 
 .guidline ul{
@@ -832,10 +780,6 @@ background-position-x: center;
     background-attachment: fixed;
 }
 
-.pricing-div{
-    text-align:center;
-}
-
 .text-align-left{
     text-align: left;
     margin-left:20px;
@@ -851,12 +795,12 @@ position:fixed;
 
 } */
 
-.pricing-heading,.pricing-para{    /*card class element removed from here by Manish */
-    text-align: center;
-}
 
+.pricing .sm-heading{
+    margin-bottom: 45px;
+}
 /* below,add new style for li for aligning vertical-straight */
-.pricing-heading , .pricing-para{
+.pricing .bg-heading , .pricing .sm-heading{
     color: white;
 }
 
@@ -908,10 +852,6 @@ position:fixed;
     box-shadow: 1px 1px 15px rgb(197, 197, 197);
     padding: 50px;
     margin-top:80px;
-}
-
-.align-center{
-  text-align: center;
 }
 
 .input_box-width{
@@ -1047,7 +987,6 @@ margin-bottom: 20px;
 .copyright{	
     padding: 8px 0;	
     color: #ffffff;  	
-    text-align: center;	
     background: #000000;	
 }	
 .copyright p{	
