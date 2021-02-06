@@ -26,7 +26,9 @@ html{
 .bg-hotpink{
     background-color: #e91e63;
 }
-
+.fc-white{
+    color: #ffffff;
+}
 
 /* calling section by navbar */
 
@@ -126,10 +128,6 @@ html{
     font-size: 15px;
     padding:12px 40px;
     margin-top:20px;
-    color:white;
-}
-.btn-slide1{
-    color:white;
 }
 .btn-slide2{
     background-color:none;
@@ -236,8 +234,6 @@ html{
     margin-bottom: 30px;
 }
 .btn-darkpink{
-    color:white;
-    background-color:#e83e8c;
     border:1px solid gray;
 }
 .btn-darkpink:hover{
@@ -261,7 +257,6 @@ html{
     margin-bottom: 25px;
 }
 .time-div{
-    color:white;
     padding:30px;
 }
 
@@ -345,9 +340,6 @@ html{
 }
 .card-day p{
     float: left;
-}
-.card-day-monday{
-    color: #ffffff;
 }
 .card-day:hover{
     transition: 0.5s;
@@ -455,7 +447,6 @@ html{
 .speaker-box-button{
     display: block;
     margin: auto;
-    color:white;
     margin-top:30px;
 }
 
@@ -516,9 +507,6 @@ html{
     } */
     .event-gallary-btn{
         margin-top: 40px;
-    }
-    .event-gallary-btn .btn{
-        color: #ffffff;
     } 
 
 /* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
@@ -552,7 +540,7 @@ html{
 }
 .sponsors-box-button{
     display: block;
-    color:white;
+    /* color:white; */
     margin: auto;
     margin-top:20px;
 }
@@ -640,7 +628,6 @@ background-position-x: center;
 }
 .news-articals .button .btn{
     font-size: 14px;
-    color: #ffffff;
 }
 
 /* Section Event Guildline ------------------------------------------------------------------------------------------*/
@@ -687,9 +674,6 @@ position:fixed;
     margin-bottom: 45px;
 }
 /* below,add new style for li for aligning vertical-straight */
-.pricing .bg-heading , .pricing .sm-heading{
-    color: white;
-}
 .pricing .card-deck{
     padding: 0 5%;
     margin: 0;
@@ -711,9 +695,6 @@ position:fixed;
 }
 .pricing .card div{
     margin-bottom: 30px;
-}
-.pricing .btn{
-    color: #ffffff;
 }
 
 /* drop- message */
@@ -741,9 +722,7 @@ position:fixed;
     display: none;
 }
 .submit-btn{
-    /* background-color: #e91e63; */
     width:100%;
-    color:white;
 }
 
 @media (max-width:770px){
@@ -755,7 +734,6 @@ position:fixed;
 /* Section Footer */
 
 .footer{
-    color: #ffffff;
     margin-top: 40px;
     padding: 30px 5%;
     background-color: #212121;
@@ -777,7 +755,6 @@ position:fixed;
     color: #e91e63;
 }
 .footer  a{
-    color: #ffffff !important;
     text-decoration: none;
 }
 .footer p{
@@ -805,7 +782,6 @@ margin-bottom: 20px;
     outline: none;
     border: none;
     padding: 4px 10px;
-    color: #ffffff;
 }
 .footer-form{
     display: flex;
@@ -819,7 +795,6 @@ margin-bottom: 20px;
     margin-right: 5px;
 }
 .footer a{
-    color: #ffffff;
     transition: 0.5s;
 }
 .footer a:hover{
@@ -841,7 +816,6 @@ margin-bottom: 20px;
 /* Section fixed button */
 
 .fixed-button{
-    color: #ffffff;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -852,7 +826,6 @@ margin-bottom: 20px;
 
 .copyright{	
     padding: 8px 0;	
-    color: #ffffff;  	
     background: #000000;	
 }	
 .copyright p{	
@@ -861,7 +834,6 @@ margin-bottom: 20px;
 }	
 .copyright a{	
     transition: 0.5s;	
-    color: #ffffff;	
     text-decoration: none;	
 }	
 .copyright a:hover{	
