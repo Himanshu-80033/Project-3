@@ -29,6 +29,9 @@ html{
 .fc-white{
     color: #ffffff;
 }
+.fc-hotpink{
+    color: #e91e63 !important;
+}
 
 /* calling section by navbar */
 
@@ -57,13 +60,9 @@ html{
 .right-align-nav{
     right:0% ;
 }
-.active>a{
-    color:#e91e63 !important;
-}
 .style-border{
     transition: 0.2s;
     height:0px;
-    background-color: hotpink;
 }
 .width-1{
     width:60px;
@@ -98,8 +97,6 @@ html{
 }
 }
 
-
-
 /* carousel */
 
 .prev-next>a>span{
@@ -131,9 +128,6 @@ html{
 }
 .btn-slide2{
     background-color:none;
-}
-.btn-slide3{
-    background-color: #e91e63;
 }
 .prev-next{
     display:none;
@@ -322,9 +316,6 @@ html{
 .schedule-event-discription3{
     background-color: #f3f4f3;
     display: none;
-}
-.event-location{
-    color: #e91e63;
 }
 /* .col-2 img{
     width: 110px;
@@ -540,7 +531,6 @@ html{
 }
 .sponsors-box-button{
     display: block;
-    /* color:white; */
     margin: auto;
     margin-top:20px;
 }
@@ -616,7 +606,6 @@ background-position-x: center;
     color: #e91e63;
 }
 .tag{
-    color: red;
     background: #ffffff;
     box-shadow: 3px 1px 8px #bbbbbb;
     top: 185px;
@@ -718,7 +707,6 @@ position:fixed;
     float: right;
 }
 .form-para{
-    color: #e91e63;
     display: none;
 }
 .submit-btn{
@@ -744,15 +732,11 @@ position:fixed;
 .footer-col{
     margin-bottom: 40px;
 }
-
 .footer ul{
     padding-inline-start: 0;
 }
 .footer li{
     list-style: none;
-}
-.footer h1{
-    color: #e91e63;
 }
 .footer  a{
     text-decoration: none;
