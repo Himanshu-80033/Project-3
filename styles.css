@@ -13,20 +13,19 @@ html{
     padding-top:60px !important;
     padding-bottom:60px !important;
 }
-
 .c-align{
     text-align: center;
 }
-
 .p-abs{
     position: absolute;
 }
-
 .bg-heading{
     font-family: Josefin Sans, sans-serif;
     font-size: 40px;
 }
-
+.bg-hotpink{
+    background-color: #e91e63;
+}
 
 
 /* calling section by navbar */
@@ -43,7 +42,6 @@ html{
     width:100%;
     z-index: 2;
 }
-
 .main-navbar{
     position:absolute;
     position: fixed;
@@ -51,30 +49,24 @@ html{
     width:85%;
     margin:0% 7.5%;
 }
-
 .nav-link{
     margin-left:5px;
 }
-
 .right-align-nav{
     right:0% ;
 }
-
 .active>a{
     color:#e91e63 !important;
 }
-
 .style-border{
     transition: 0.2s;
     height:0px;
     background-color: hotpink;
 }
-
 .width-1{
     width:60px;
     margin-left:6px;
 }
-
 .width-2{
     width:70px;
     margin-left:7px;
@@ -87,7 +79,6 @@ html{
     width:90px;
     margin-left:10px;
 }
-
 .style-hover:hover .style-border{
    height:5px;
 }
@@ -97,11 +88,9 @@ html{
 .style-border{
    display:none;
 }
-
 .nav-link{
     margin-left:20px !important;
 }
-
 .right-align-nav{
     position: relative;
 }
@@ -121,41 +110,33 @@ html{
   display:block;
   transition: .9s;
 }
-
 .text-carousel{
     display:block;
     bottom:150px;
 }
-
 .carousel-item>img{
     object-fit: cover;
     height:550px;
 }
-
 .carousel-indicators{
     padding-bottom: 50px;
     z-index:1;
 }
-
 .btn-style{
     font-size: 15px;
     padding:12px 40px;
     margin-top:20px;
     color:white;
 }
-
 .btn-slide1{
     color:white;
 }
-
 .btn-slide2{
     background-color:none;
 }
-
 .btn-slide3{
     background-color: #e91e63;
 }
-
 .prev-next{
     display:none;
 }
@@ -181,18 +162,15 @@ html{
 .event-start-time>h3{
     margin:50px 0px;
 }
-
 .event-start-time h5{
     font-size: 35px;
     font-weight: 700;
 }
-
 .event-start-time>button{
     display: block;
     margin:auto;
     margin-top:40px;
 }
-
 .time-part-div{
     display: inline-block;
     background-color:white;
@@ -203,13 +181,11 @@ html{
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
-    
 }
-
 .event-start-time .btn-slide3{
     border: none;
 }
-.event-start-time .btn-slide3:hover{
+.event-start-time .bg-hotpink:hover{
     background-color: #f62459;
 }
 
@@ -232,21 +208,17 @@ html{
 .why-you-choose{
     padding:70px 0px;
 }
-
 .why-you-choose>p{
     margin-bottom: 70px;
 }
-
 .small-box{
     padding:40px 40px !important;
     border:0.1px solid rgb(219, 218, 218);
     margin-top:10px;
 }
-
 .small-box>i{
     padding-bottom:20px;
 }
-
 .small-box:hover{
     background-color: #f3f4f3;
 }
@@ -268,34 +240,26 @@ html{
     background-color:#e83e8c;
     border:1px solid gray;
 }
-
 .btn-darkpink:hover{
     color:white;
 }
-
 .about-event{
     padding: 65px 65px;
 }
-
 .event-discript-box{
     margin:auto;
     padding:20px;
     padding-bottom:50px;
 }
-
 .about-event .card-deck{
     margin: 0;
 }
-
 .time-box{
-    background-color: #e91e63;
     padding:80px 0px;
 }
-
 .icon-time-box{
     margin-bottom: 25px;
 }
-
 .time-div{
     color:white;
     padding:30px;
@@ -328,24 +292,19 @@ html{
     font-family: sans-serif;
     padding: 0 7%;
 }
-
 .schedules-para{
     margin-bottom: 30px;
 }
-
 .schedule-row{
     display: flex;
 }
-
 .schedule-col-1{
     width: 18rem;
 }
-
 .schedule-col-2{
     width: 100%;
     padding-left: 25px;
     margin-left: 25px;
-
 }
 .schedule-col-2 .card{
     height: 120px;
@@ -357,12 +316,10 @@ html{
 .schedule-event p{
     text-align: left;
 }
-
 .schedule-event-discription1{
     background-color: #f3f4f3;
     /* display: none; */
 }
-
 .schedule-event-discription2{
     background-color: #f3f4f3;
     display: none;
@@ -371,19 +328,15 @@ html{
     background-color: #f3f4f3;
     display: none;
 }
-
-
 .event-location{
     color: #e91e63;
 }
-
 /* .col-2 img{
     width: 110px;
     margin-top: 22px;
     margin-left: -6px;
     border-radius: 100%;
 } */
-
 .card-day{ 
     /* border: none; */
     /* min-width: 18rem; */
@@ -394,16 +347,13 @@ html{
     float: left;
 }
 .card-day-monday{
-    background-color: #e91e63;
     color: #ffffff;
 }
-
 .card-day:hover{
     transition: 0.5s;
     background-color: #e91e63;
     color: #ffffff;
 }  
-
 
 @media screen and (max-width:993px){
     .schedule-col-2 h5{
@@ -418,7 +368,6 @@ html{
     .schedule-row{
         display: block;
     }
-
     .schedule-col-1{
         display: flex;
         width: 100%;
@@ -437,7 +386,6 @@ html{
     .schedule-col-1 p{
         font-size: 14px;
     }
-
 }
 
 @media screen and (max-width: 576px){
@@ -454,11 +402,9 @@ html{
 .main-div{
     padding:0px 40px;
 }
-
 .candidate-box{
     padding:20px;
 }
-
 .employee-profile{
     position: relative;
     box-shadow: 0.5px 0.5px 10px rgb(187, 187, 187);
@@ -468,40 +414,31 @@ html{
     height:300px;
    margin:15px;
 }
-
 .media-id-employee{
     transition: 0.3s;
     top:8px;
     z-index:-2;
     right:5%;
 }
-
 .media-id-employee>i{
     color:#e91e63;
     margin-left:8px;
 }
-
-
-
 .intro-div{
     background-color:rgb(240, 239, 239);
     padding:20px 10px 0px 10px;
     bottom:10px;
-
 }
-
 .employee-profile>img{
     object-fit: cover;
     width:100%;
     height:280px;
 }
-
 .employee-profile:hover .media-id-employee{
     display: block;
     margin-top:15px;
     z-index: 2;
 }
-
 .overlay{
     background-color: black;
     border:10px solid white;
@@ -512,13 +449,10 @@ html{
     margin:-10px!important;
     transition: 0.5s;
 }
-
 .employee-profile:hover .overlay{
     opacity: 0.5;
 }
-
 .speaker-box-button{
-    background-color:#e91e63 ;
     display: block;
     margin: auto;
     color:white;
@@ -551,16 +485,12 @@ html{
     .all-padding-div{
         padding:15px;
     }
-
     .event-gallary .col-lg-4 img{
         object-fit: cover; /*new line by manish*/
         width: 100%;
         height: 270px;
     }
-
-
     .overlay-div{
-        background-color: hotpink;
         border:15px solid rgb(240, 240, 240);
         opacity: 0.1;
         width: 100%;
@@ -569,7 +499,6 @@ html{
         margin:-15px!important;
         transition: 0.5s;
     }
-
     .all-padding-div:hover .overlay-div{
         opacity: 0.6;
     }
@@ -585,43 +514,31 @@ html{
         border:15px solid  rgb(240, 240, 240);
         
     } */
-
     .event-gallary-btn{
         margin-top: 40px;
     }
-
     .event-gallary-btn .btn{
-        background-color: #e91e63;
         color: #ffffff;
     } 
-
-
 
 /* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
 
 .ask-question{
     padding: 0 5%;
 }
-
 .ask-question .row{
     margin: 0;
 }
-
-
 .pencil-icon , .question:not(:first-child) {
     border: 1px solid rgb(212, 212, 212);    /* change in color of border by Manish */
     border-top: none;   /*this is new line by manish*/
 } 
-
 .pencil-icon{
     border-right: none;   /*this is new line by manish*/
 }
-
 .top-border{
     border-top: 1px solid rgb(212, 212, 212);
 }
-
-
 
 /* sponsors-box -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -629,20 +546,16 @@ html{
     background-color: rgb(240, 240, 240);
     padding:0px 20px;
 }
-
 .sponsor-div{
     margin:auto; 
     width:90%;
 }
-
 .sponsors-box-button{
     display: block;
     color:white;
     margin: auto;
-    background-color:#e91e63 ;
     margin-top:20px;
 }
-
 .company-logo>img{
     display: block;
     margin:auto;
@@ -659,40 +572,31 @@ width:220px;
 height:120px;
 margin-top:15px;
 }
-
 .sponsors-box{
     padding: 0;
 }
-
 }
 
-
 /* Section Our latest news and Articals -------------------------------------------------------------------------------------------------- */
-
 
 .news-articals{
     padding: 0 5%;
 }
-
 .news-articals .card{
     box-shadow: 6px 6px 30px #dddddd;
 }
-
 .image1{
 transition: 1s;
 background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5euMeMcTlTRfgBanG--riR6WHkwd6SW9a_g&usqp=CAU");
 background-size: 39% !important;
 background-position-x: center;
 }
-
 .image2{
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKgG0Mw8U-71JJ3VFpw-WoTw7Xs6P1bJ97A&usqp=CAU");
 }
-
 .image3{
     background: url("https://image.shutterstock.com/image-photo/bottle-mineral-water-on-wooden-260nw-522481555.jpg");
 }
-
 .image1,.image2,.image3{
     height: 200px;
     transition: 0.5s ;
@@ -700,7 +604,6 @@ background-position-x: center;
     background-repeat: no-repeat;  /*add property for remove repetation of imagess*/   
     object-fit: cover; 
 }
-
 .image1:hover{
     background-size: 45% !important;
 }
@@ -710,25 +613,20 @@ background-position-x: center;
 .image3:hover{
     background-size: 110% !important;
 }
-
 .news-articals .card-title{
     font-size: 24px;
 }
-
 .news-articals .card-title:hover{
     color: #e91e63;
     transition: 0.3s;
 }
-
 .news-articals .card-text{
     color: #999999;
 }
-
 .news-articals .card-text span:hover{
     transition: 0.3s;
     color: #e91e63;
 }
-
 .tag{
     color: red;
     background: #ffffff;
@@ -737,40 +635,31 @@ background-position-x: center;
     left: 35px;
     padding: 6px 20px;
 }
-
 .news-articals .button{
     margin-top: 36px;
 }
 .news-articals .button .btn{
     font-size: 14px;
     color: #ffffff;
-    background-color: #e91e63;
-
 }
-
 
 /* Section Event Guildline ------------------------------------------------------------------------------------------*/
 
 .guidline{
     padding: 0 5%;
 }
-
 .guidline-para{
     margin-bottom: 45px;
 }
-
 .guidline ul{
     padding-inline-start: 0;
 }
 .guidline li{
     list-style: none;
 }
-
 .guideline-image>img{
     width:100%;
 }
-
-
 
 /* Section Pricing----------------------------------------------------------------------------- */
 
@@ -779,7 +668,6 @@ background-position-x: center;
     background-image: url("https://images.unsplash.com/photo-1515175192010-cf3250992719?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI1fHxsaXZlJTIwc2luZ2luZyUyMHBlcmZvcm1hbmNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
     background-attachment: fixed;
 }
-
 .text-align-left{
     text-align: left;
     margin-left:20px;
@@ -795,7 +683,6 @@ position:fixed;
 
 } */
 
-
 .pricing .sm-heading{
     margin-bottom: 45px;
 }
@@ -803,41 +690,31 @@ position:fixed;
 .pricing .bg-heading , .pricing .sm-heading{
     color: white;
 }
-
 .pricing .card-deck{
     padding: 0 5%;
     margin: 0;
 }
-
 .pricing li{
     list-style: none;
 }
-
 .pricing i{
     color: #e91e63;
 }
-
 .icon-top{
     font-size: 80px;
     margin-top: 20px;
     margin-bottom: 25px;
 }
-
 .price{
     font-size: 2.5rem;
     font-weight: 800;
 }
-
 .pricing .card div{
     margin-bottom: 30px;
 }
-
 .pricing .btn{
-    background-color: #e91e63;
     color: #ffffff;
 }
-
-
 
 /* drop- message */
 
@@ -847,29 +724,24 @@ position:fixed;
     width:100%;
     margin-top:80px;
 }
-
 .form-design{
     box-shadow: 1px 1px 15px rgb(197, 197, 197);
     padding: 50px;
     margin-top:80px;
 }
-
 .input_box-width{
     display: inline-block;
     width:49%;
 }
-
 .input-float{
     float: right;
 }
-
 .form-para{
     color: #e91e63;
     display: none;
 }
-
 .submit-btn{
-    background-color: #e91e63;
+    /* background-color: #e91e63; */
     width:100%;
     color:white;
 }
@@ -882,7 +754,6 @@ position:fixed;
 
 /* Section Footer */
 
-
 .footer{
     color: #ffffff;
     margin-top: 40px;
@@ -892,7 +763,6 @@ position:fixed;
 .footer .row{
     margin: 0;
 }
-
 .footer-col{
     margin-bottom: 40px;
 }
@@ -935,7 +805,6 @@ margin-bottom: 20px;
     outline: none;
     border: none;
     padding: 4px 10px;
-    background-color: #e91e63;
     color: #ffffff;
 }
 .footer-form{
@@ -956,8 +825,6 @@ margin-bottom: 20px;
 .footer a:hover{
     color: #e91e63 !important;
 }
-
-
 .fb:hover{
     color: #3b5998;
 }
@@ -974,7 +841,6 @@ margin-bottom: 20px;
 /* Section fixed button */
 
 .fixed-button{
-    background: #e91e63;
     color: #ffffff;
     position: fixed;
     bottom: 10px;
