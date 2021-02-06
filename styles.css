@@ -19,7 +19,7 @@ html{
 
 /* for font-family */
 
-.event-start-time h3,.why-you-choose h3,.about-event h4,.schedules h1,.main-div h4,.ask-question-heading,.sponsors-box h2,.news-articals h1,.guidline-heading,.pricing-heading,.form-box h3{
+.event-start-time h3,.why-you-choose h3,.about-event h4,.schedules h1,.main-div h4,.ask-question-heading,.sponsors-box h2,.news-articals h1,.guidline-heading,.our-event-gallary .bg-heading,.pricing-heading,.form-box h3{
     font-family: Josefin Sans, sans-serif;
     font-size: 40px;
 }
@@ -205,6 +205,13 @@ html{
     
 }
 
+.event-start-time .btn-slide3{
+    border: none;
+}
+.event-start-time .btn-slide3:hover{
+    background-color: #f62459;
+}
+
 @media (min-width:770px){
     .time-part-div{
         width:120px;
@@ -253,7 +260,12 @@ html{
 
 /* about-Event */
 
-
+.about-event h4{
+    margin-bottom: 0;
+}
+.about-event .sm-heading{
+    margin-bottom: 30px;
+}
 .btn-darkpink{
     color:white;
     background-color:#e83e8c;
@@ -334,6 +346,7 @@ html{
 
 .schedules-para{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .schedule-row{
@@ -552,6 +565,10 @@ text-align: center;
 
 
 /* Section Our Event Gallary -------------------------------------------------------------------------*/
+
+     .our-event-gallary .bg-heading,.our-event-gallary .sm-heading{
+         text-align: center;
+     }
 
     .event-gallary{
         background-color: rgb(240, 240, 240);
