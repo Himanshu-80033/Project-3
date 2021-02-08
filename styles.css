@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 .row{
     margin-left:0px;
     width:100%;
@@ -19,6 +18,12 @@ html{
 .p-abs{
     position: absolute;
 }
+.p-fix{
+    position: fixed;
+}
+.dp-none{
+    display: none;
+}
 .bg-heading{
     font-family: Josefin Sans, sans-serif;
     font-size: 40px;
@@ -26,31 +31,35 @@ html{
 .bg-hotpink{
     background-color: #e91e63;
 }
+.bg-f3f4f3{
+background-color: #f3f4f3;
+}
 .fc-white{
     color: #ffffff;
 }
 .fc-hotpink{
     color: #e91e63 !important;
 }
-
-/* calling section by navbar */
-
+.z-2{
+    z-index: 2;
+}
+.tra-500{
+    transition: 0.5s;
+}
+.tra-300{
+    transition: 0.3s;
+}
 .href-about,.href-schedules,.href-gallary,.href-faq,.href-sponsors,.href-pricing,.href-contact{
     height: 25px !important;
 }
 
 /* navbar ------------------------------------------------------------------*/
+
 .navbar-back-color{
-    position: fixed;
-    background-color: rgb(245, 245, 245);
     height:70px;
     width:100%;
-    z-index: 2;
 }
 .main-navbar{
-    position:absolute;
-    position: fixed;
-    z-index: 2;
     width:85%;
     margin:0% 7.5%;
 }
@@ -61,7 +70,6 @@ html{
     right:0% ;
 }
 .style-border{
-    transition: 0.2s;
     height:0px;
 }
 .width-1{
@@ -130,7 +138,7 @@ html{
     background-color:none;
 }
 .prev-next{
-    display:none;
+    /* display:none; please cheak that this display: none; is useful or not */
 }
 
 @media (min-width:770px){
@@ -141,8 +149,6 @@ html{
        height:680px;
     }
 }
-
-
 
 /* part EVENT WILL START IN */
 
@@ -165,7 +171,6 @@ html{
 }
 .time-part-div{
     display: inline-block;
-    background-color:white;
     box-shadow: 4px 5px 24px 7px #aaaaaa;;
     padding:5px;
     height:91px;
@@ -189,7 +194,6 @@ html{
         margin:10px;
     }
 }
-
 
 /* why choose */
 
@@ -277,7 +281,6 @@ html{
 /* Section Event Schedules */
 
 .schedules{
-    background: #f3f4f3;
     font-family: sans-serif;
     padding: 0 7%;
 }
@@ -305,27 +308,7 @@ html{
 .schedule-event p{
     text-align: left;
 }
-.schedule-event-discription1{
-    background-color: #f3f4f3;
-    /* display: none; */
-}
-.schedule-event-discription2{
-    background-color: #f3f4f3;
-    display: none;
-}
-.schedule-event-discription3{
-    background-color: #f3f4f3;
-    display: none;
-}
-/* .col-2 img{
-    width: 110px;
-    margin-top: 22px;
-    margin-left: -6px;
-    border-radius: 100%;
-} */
 .card-day{ 
-    /* border: none; */
-    /* min-width: 18rem; */
     color: #495057;
     border-radius: 0;
 }
@@ -333,7 +316,6 @@ html{
     float: left;
 }
 .card-day:hover{
-    transition: 0.5s;
     background-color: #e91e63;
     color: #ffffff;
 }  
@@ -398,7 +380,6 @@ html{
    margin:15px;
 }
 .media-id-employee{
-    transition: 0.3s;
     top:8px;
     z-index:-2;
     right:5%;
@@ -430,7 +411,6 @@ html{
     height:100%;
     overflow:auto;
     margin:-10px!important;
-    transition: 0.5s;
 }
 .employee-profile:hover .overlay{
     opacity: 0.5;
@@ -447,7 +427,6 @@ html{
     }
 }
 
-
 /* Section Our Event Gallary -------------------------------------------------------------------------*/
 
     .event-gallary{
@@ -455,15 +434,6 @@ html{
         margin-top: 20px;
         padding: 0 4%;
     }
-
-    /* comment out by manish */
-    /* .event-gallary .row{
-        margin: 0;
-    }
-    .event-gallary .row2{
-        margin-top: 30px;
-    } */
-
     .all-padding-div{
         padding:15px;
     }
@@ -479,23 +449,10 @@ html{
         height:100%;
         overflow:auto;
         margin:-15px!important;
-        transition: 0.5s;
     }
     .all-padding-div:hover .overlay-div{
         opacity: 0.6;
     }
-    /* .event-gallary-hover:hover .inner{
-        
-        background: #e91e63;
-        position: absolute;
-        opacity: 0.6;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        border:15px solid  rgb(240, 240, 240);
-        
-    } */
     .event-gallary-btn{
         margin-top: 40px;
     } 
@@ -577,7 +534,6 @@ background-position-x: center;
 }
 .image1,.image2,.image3{
     height: 200px;
-    transition: 0.5s ;
     background-size: 100%;
     background-repeat: no-repeat;  /*add property for remove repetation of imagess*/   
     object-fit: cover; 
@@ -596,17 +552,14 @@ background-position-x: center;
 }
 .news-articals .card-title:hover{
     color: #e91e63;
-    transition: 0.3s;
 }
 .news-articals .card-text{
     color: #999999;
 }
 .news-articals .card-text span:hover{
-    transition: 0.3s;
     color: #e91e63;
 }
 .tag{
-    background: #ffffff;
     box-shadow: 3px 1px 8px #bbbbbb;
     top: 185px;
     left: 35px;
@@ -648,17 +601,6 @@ background-position-x: center;
     text-align: left;
     margin-left:20px;
 }
-
-/* .pricing-img{
-position: relative;     problem ::: Image is not visible
-width: 100%;        
-z-index: -1;
-height:100px;
-top:100px;
-position:fixed;
-
-} */
-
 .pricing .sm-heading{
     margin-bottom: 45px;
 }
@@ -705,9 +647,6 @@ position:fixed;
 }
 .input-float{
     float: right;
-}
-.form-para{
-    display: none;
 }
 .submit-btn{
     width:100%;
@@ -778,9 +717,6 @@ margin-bottom: 20px;
     font-size: 2.5rem;
     margin-right: 5px;
 }
-.footer a{
-    transition: 0.5s;
-}
 .footer a:hover{
     color: #e91e63 !important;
 }
@@ -800,7 +736,6 @@ margin-bottom: 20px;
 /* Section fixed button */
 
 .fixed-button{
-    position: fixed;
     bottom: 10px;
     right: 10px;
 }
@@ -817,7 +752,6 @@ margin-bottom: 20px;
 
 }	
 .copyright a{	
-    transition: 0.5s;	
     text-decoration: none;	
 }	
 .copyright a:hover{	
