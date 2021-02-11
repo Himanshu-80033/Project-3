@@ -432,6 +432,9 @@ background-color: #f3f4f3;
 
 /* Section Our Event Gallary -------------------------------------------------------------------------*/
 
+    .href-gallary{
+        height: 80px !important;
+    }
     .event-gallary{
         background-color: rgb(240, 240, 240);
         margin-top: 20px;
@@ -462,22 +465,37 @@ background-color: #f3f4f3;
 
 /* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
 
-.ask-question{
+/* .ask-question{
     padding: 0 5%;
-}
-.ask-question .row{
+} */
+/* .ask-question .row{
     margin: 0;
-}
-.pencil-icon , .question:not(:first-child) {
-    border: 1px solid rgb(212, 212, 212);    /* change in color of border by Manish */
-    border-top: none;   /*this is new line by manish*/
-} 
+} */
+
+/* .pencil-icon , .question:not(:first-child) {
+    border: 1px solid rgb(212, 212, 212);    change in color of border by Manish */
+    /* border-top: none;   this is new line by manish */
+/* } 
 .pencil-icon{
-    border-right: none;   /*this is new line by manish*/
+    border-right: none;   this is new line by manish
 }
 .top-border{
     border-top: 1px solid rgb(212, 212, 212);
+} */
+
+.ask-question{
+    padding: 0 5%;
 }
+.ask-question i{
+    width: 30px;
+    text-align: center;
+}
+.ask-question .col-lg-6 div{
+    border: 1.5px solid rgb(212, 212, 212);
+    /* margin-bottom: 10px; */
+    line-height: 30px;
+}
+
 
 /* sponsors-box -----------------------------------------------------------------------------------------------------------------------------------------------*/
 
