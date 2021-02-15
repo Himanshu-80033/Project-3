@@ -49,6 +49,9 @@ background-color: #f3f4f3;
 .tra-300{
     transition: 0.3s;
 }
+.tb-none{
+    border-top: none !important;
+}
 .href-about,.href-schedules,.href-gallary,.href-faq,.href-sponsors,.href-pricing,.href-contact{
     height: 25px !important;
 }
@@ -362,7 +365,7 @@ background-color: #f3f4f3;
     }
 }
 
-/* part who is speaking ------------------------------------------------------*/
+/* part who is speaking -----*/
 
 .main-div{
     padding:0px 40px;
@@ -430,7 +433,7 @@ background-color: #f3f4f3;
     }
 }
 
-/* Section Our Event Gallary -------------------------------------------------------------------------*/
+/* Section Our Event Gallary ----------*/
 
     .href-gallary{
         height: 80px !important;
