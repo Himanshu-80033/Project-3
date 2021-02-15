@@ -652,6 +652,13 @@ background-position-x: center;
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 992px){
+    .pricing-card{
+        margin-top: 20px;
+    }
+}
+
+
 /* drop- message */
 
 .form-box{
