@@ -628,8 +628,11 @@ background-position-x: center;
     background-attachment: fixed;
 }
 .text-align-left{
+    display: block;
+    margin:auto;
     text-align: left;
-    margin-left:20px;
+    padding-left: 0px;
+    margin-bottom: 40px;
 }
 .pricing .sm-heading{
     margin-bottom: 45px;
@@ -661,6 +664,13 @@ background-position-x: center;
 @media screen and (max-width: 992px){
     .pricing-card{
         margin-top: 20px;
+    }
+}
+@media (max-width:576px) and (min-width:360px)
+{
+    .text-align-left{
+        padding-left: 0px;
+        margin-left:50px;
     }
 }
 
