@@ -66,6 +66,10 @@ background-color: #f3f4f3;
     width:85%;
     margin:0% 7.5%;
 }
+
+.c-name{
+    color:#e91e63;
+}
 .nav-link{
     margin-left:5px;
 }
@@ -106,6 +110,12 @@ background-color: #f3f4f3;
 .right-align-nav{
     position: relative;
 }
+}
+
+@media (max-width:350px){
+    .c-name{
+        font-size: 30px;
+    }
 }
 
 /* carousel */
