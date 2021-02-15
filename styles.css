@@ -596,6 +596,12 @@ background-position-x: center;
     font-size: 14px;
 }
 
+@media screen and (max-width : 992px){
+    .news-card{
+        margin-top: 20px;
+    }
+}
+
 /* Section Event Guildline ------------------------------------------------------------------------------------------*/
 
 .guidline{
