@@ -56,6 +56,13 @@ background-color: #f3f4f3;
     height: 25px !important;
 }
 
+@media screen and (max-width: 700px){
+    .bg-heading{
+        font-size: 36px;
+    }
+}
+
+
 /* navbar ------------------------------------------------------------------*/
 
 .navbar-back-color{
@@ -477,24 +484,6 @@ background-color: #f3f4f3;
     } 
 
 /* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
-
-/* .ask-question{
-    padding: 0 5%;
-} */
-/* .ask-question .row{
-    margin: 0;
-} */
-
-/* .pencil-icon , .question:not(:first-child) {
-    border: 1px solid rgb(212, 212, 212);    change in color of border by Manish */
-    /* border-top: none;   this is new line by manish */
-/* } 
-.pencil-icon{
-    border-right: none;   this is new line by manish
-}
-.top-border{
-    border-top: 1px solid rgb(212, 212, 212);
-} */
 
 .ask-question{
     padding: 0 5%;
