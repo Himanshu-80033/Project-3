@@ -66,6 +66,10 @@ background-color: #f3f4f3;
     width:85%;
     margin:0% 7.5%;
 }
+
+.c-name{
+    color:#e91e63;
+}
 .nav-link{
     margin-left:5px;
 }
@@ -106,6 +110,12 @@ background-color: #f3f4f3;
 .right-align-nav{
     position: relative;
 }
+}
+
+@media (max-width:350px){
+    .c-name{
+        font-size: 30px;
+    }
 }
 
 /* carousel */
@@ -493,10 +503,20 @@ background-color: #f3f4f3;
     width: 30px;
     text-align: center;
 }
-.ask-question .col-lg-6 div{
+.ask-question .small-box-Q div{
     border: 1.5px solid rgb(212, 212, 212);
     /* margin-bottom: 10px; */
     line-height: 30px;
+}
+
+@media (max-width:400px)
+{
+    .ask-question{
+        padding: 0 2%;
+    }
+    .small-box-Q div{
+        font-size: 11px;
+    }
 }
 
 
@@ -702,6 +722,12 @@ background-position-x: center;
 @media (max-width:770px){
     .input_box-width{
         width:100%;
+    }
+}
+@media (max-width:350px)
+{
+    .form-design{
+        padding:20px;
     }
 }
 
