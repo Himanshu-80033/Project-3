@@ -436,7 +436,7 @@ background-color: #f3f4f3;
     opacity: 0.5;
 }
 .employee-profile:hover {
-    box-shadow: 30px 25px 30px 25px rgb(187 187 187);
+    box-shadow: 0px 0px 25px 15px rgb(187, 187 ,187);
 }
 .speaker-box-button{
     display: block;
