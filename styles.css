@@ -485,6 +485,11 @@ background-color: #f3f4f3;
 
 /* Section Ask Question ----------------------------------------------------------------------------------------------------------------------*/
 
+.aq-heading{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
 .ask-question{
     padding: 0 5%;
 }
